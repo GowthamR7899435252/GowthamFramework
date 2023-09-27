@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BDD_Cucumber" class="navigator-link">
+              <span class="suite-name border-failed">BDD Cucumber</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BDD_Cucumber" class="navigator-link ">
+                    <span>C:\Eclipse Workspace\Projects\ActiTimeAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BDD_Cucumber" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BDD_Cucumber" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BDD_Cucumber" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BDD_Cucumber" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BDD_Cucumber" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BDD_Cucumber" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BDD_Cucumber" class="hide-methods failed suite-BDD_Cucumber"> (hide)</a> <!-- hide-methods failed suite-BDD_Cucumber -->
+                      <a href="#" panel-name="suite-BDD_Cucumber" class="show-methods failed suite-BDD_Cucumber"> (show)</a> <!-- show-methods failed suite-BDD_Cucumber -->
+                    </span>
+                    <div class="method-list-content failed suite-BDD_Cucumber">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BDD_Cucumber" title="com.sgtesting.actitime.testsuite.DriverScript" class="method navigator-link" hash-for-method="feature(Create User Scenarios)">feature(Create User Scenarios)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BDD_Cucumber" title="com.sgtesting.actitime.testsuite.DriverScript" class="method navigator-link" hash-for-method="feature(Login and Logout functionality)">feature(Login and Logout functionality)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BDD_Cucumber -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BDD_Cucumber" class="panel BDD_Cucumber">
+          <div class="suite-BDD_Cucumber-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.sgtesting.actitime.testsuite.DriverScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(Create User Scenarios)">
+                  </a> <!-- feature(Create User Scenarios) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Create User Scenarios)</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.sgtesting.actitime.testsuite.DriverScript.feature(DriverScript.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.NoClassDefFoundError: Could not initialize class cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter
+	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:807)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)
+	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.&lt;init&gt;(LocalizedXStreams.java:50)
+	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at com.sgtesting.actitime.testsuite.DriverScript.feature(DriverScript.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at ✽.Given Launch the application(users.feature:11)
+... Removed 54 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(Login and Logout functionality)">
+                  </a> <!-- feature(Login and Logout functionality) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Login and Logout functionality)</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.ExceptionInInitializerError
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at com.sgtesting.actitime.testsuite.DriverScript.feature(DriverScript.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.ExceptionInInitializerError
+	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:807)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)
+	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.&lt;init&gt;(LocalizedXStreams.java:50)
+	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at com.sgtesting.actitime.testsuite.DriverScript.feature(DriverScript.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at ✽.Given Launch the application(loginlogout.feature:11)
+	at cucumber.deps.com.thoughtworks.xstream.core.util.Fields.locate(Fields.java:39)
+	at cucumber.deps.com.thoughtworks.xstream.converters.collections.TreeMapConverter.&lt;clinit&gt;(TreeMapConverter.java:50)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.setupConverters(XStream.java:807)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:574)
+	at cucumber.deps.com.thoughtworks.xstream.XStream.&lt;init&gt;(XStream.java:530)
+	at cucumber.runtime.xstream.LocalizedXStreams$LocalizedXStream.&lt;init&gt;(LocalizedXStreams.java:50)
+	at cucumber.runtime.xstream.LocalizedXStreams.newXStream(LocalizedXStreams.java:37)
+	at cucumber.runtime.xstream.LocalizedXStreams.get(LocalizedXStreams.java:29)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
+	at com.sgtesting.actitime.testsuite.DriverScript.feature(DriverScript.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 86 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BDD_Cucumber-class-failed -->
+        </div> <!-- panel BDD_Cucumber -->
+        <div panel-name="test-xml-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Eclipse Workspace\Projects\ActiTimeAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;BDD Cucumber&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Scenarios&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.sgtesting.actitime.testsuite.DriverScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Scenarios --&gt;
+&lt;/suite&gt; &lt;!-- BDD Cucumber --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BDD Cucumber</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Scenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BDD Cucumber</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BDD Cucumber</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BDD_Cucumber');
+function tableData_BDD_Cucumber() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'com.sgtesting.actitime.testsuite.DriverScript')
+data.setCell(0, 3, 697);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'com.sgtesting.actitime.testsuite.DriverScript')
+data.setCell(1, 3, 67);
+window.suiteTableData['BDD_Cucumber']= { tableData: data, tableDiv: 'times-div-BDD_Cucumber'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 764 ms</span>
+              <div id="times-div-BDD_Cucumber">
+              </div> <!-- times-div-BDD_Cucumber -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BDD Cucumber</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BDD_Cucumber" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.sgtesting.actitime.testsuite.DriverScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature(Login and Logout functionality)</span>
+                <span class="method-start">723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">feature(Create User Scenarios)</span>
+                <span class="method-start">1431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1515 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">writeExtentReport</span>
+                <span class="method-start">2061 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

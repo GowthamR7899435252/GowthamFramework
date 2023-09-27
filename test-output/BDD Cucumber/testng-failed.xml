@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BDD Cucumber]">
+  <test thread-count="5" name="Scenarios(failed)">
+    <classes>
+      <class name="com.sgtesting.actitime.testsuite.DriverScript">
+        <methods>
+          <include name="feature" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+          <include name="writeExtentReport"/>
+        </methods>
+      </class> <!-- com.sgtesting.actitime.testsuite.DriverScript -->
+    </classes>
+  </test> <!-- Scenarios(failed) -->
+</suite> <!-- Failed suite [BDD Cucumber] -->

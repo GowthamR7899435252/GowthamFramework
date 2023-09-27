@@ -1,0 +1,136 @@
+2023-09-27 17:48:34,059 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 17:48:39,174 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 17:48:39,195 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 17:48:43,659 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 17:48:43,664 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 17:48:43,712 ERROR c.s.a.s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Login_using_valid_credentials org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5f789b9eece27b0e74681873439adbb6, findElement {using=css selector, value=*[name='username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gauth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50891/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f789b9eece27b0e74681873439adbb6
+2023-09-27 17:53:21,983 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 17:53:27,493 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 17:53:27,501 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 17:53:32,058 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 17:53:32,062 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 17:53:32,234 ERROR c.s.a.s.ActiTimeStepDefinition [main] There is an error occurance during the execution of Login_using_valid_credentials org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=117.0.5938.92)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87fcb242373a5d5319d508f48234c169, findElement {using=css selector, value=*[name='username']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\gauth\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51296/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87fcb242373a5d5319d508f48234c169
+2023-09-27 18:02:03,279 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 18:02:08,789 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 18:02:08,811 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 18:02:13,255 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 18:02:13,260 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 18:02:18,607 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 18:12:45,716 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 18:12:51,226 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 18:12:51,246 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 18:12:55,834 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 18:12:55,838 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 18:13:03,651 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 18:15:21,515 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 18:15:26,857 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 18:15:26,876 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 18:15:31,348 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 18:15:31,354 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 18:15:39,141 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 18:15:39,145 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 18:15:41,201 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 21:43:52,491 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 21:43:59,037 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 21:43:59,056 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 21:44:03,651 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 21:44:03,651 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 21:44:11,479 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 21:44:11,482 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 21:44:13,529 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 21:44:13,533 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 21:44:14,766 ERROR c.s.a.s.ActiTimeStepDefinition [main] not logged from face giene
+2023-09-27 21:44:14,769 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 21:44:15,261 ERROR c.s.a.s.ActiTimeStepDefinition [main] did not cliked ok button 
+2023-09-27 23:04:45,011 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:04:51,145 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:04:51,155 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:04:55,586 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:04:55,602 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:05:04,373 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:05:04,375 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:05:06,414 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:05:06,416 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:05:07,603 ERROR c.s.a.s.ActiTimeStepDefinition [main] not logged from face giene
+2023-09-27 23:05:07,604 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:05:07,848 ERROR c.s.a.s.ActiTimeStepDefinition [main] did not cliked ok button 
+2023-09-27 23:06:45,376 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:06:50,781 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:06:50,801 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:06:56,162 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:06:56,162 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:07:09,022 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:07:09,027 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:07:11,056 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:07:11,060 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:07:11,684 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked logout button successfully
+2023-09-27 23:07:11,686 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:07:14,107 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked ok button successfully
+2023-09-27 23:09:08,399 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:09:13,883 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:09:13,900 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:09:18,365 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:09:18,371 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:09:33,161 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:09:33,169 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:09:38,217 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:09:38,217 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:09:38,325 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked logout button successfully
+2023-09-27 23:09:38,326 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:09:40,665 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked ok button successfully
+2023-09-27 23:18:34,856 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:18:40,137 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:18:40,157 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:18:44,665 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:18:44,681 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:18:59,471 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:18:59,479 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:19:04,527 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:19:04,527 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:19:04,676 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked logout button successfully
+2023-09-27 23:19:04,679 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:19:07,095 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked ok button successfully
+2023-09-27 23:23:18,679 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:23:23,786 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:23:23,804 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:23:28,325 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:23:28,325 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:23:43,084 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:23:43,091 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:23:48,147 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:23:48,147 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:23:51,311 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked logout button successfully
+2023-09-27 23:23:51,311 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:24:01,529 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked ok button successfully
+2023-09-27 23:25:22,532 INFO c.s.a.s.ActiTimeStepDefinition [main] Launch the application
+2023-09-27 23:25:27,969 INFO c.s.a.s.ActiTimeStepDefinition [main] The Application has launched successfully
+2023-09-27 23:25:27,988 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application
+2023-09-27 23:25:32,464 INFO c.s.a.s.ActiTimeStepDefinition [main] Navigate to the url of the application has performed successfully
+2023-09-27 23:25:32,464 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials
+2023-09-27 23:25:47,256 INFO c.s.a.s.ActiTimeStepDefinition [main] Login using valid credentials by providing valid credentails
+2023-09-27 23:25:47,258 INFO c.s.a.s.ActiTimeStepDefinition [main] the Home page should display
+2023-09-27 23:25:52,299 INFO c.s.a.s.ActiTimeStepDefinition [main] The Validation of Display of face giene has matched successfulyy
+2023-09-27 23:25:52,299 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking logout button
+2023-09-27 23:25:55,460 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked logout button successfully
+2023-09-27 23:25:55,460 INFO c.s.a.s.ActiTimeStepDefinition [main] clicking ok button 
+2023-09-27 23:26:05,651 INFO c.s.a.s.ActiTimeStepDefinition [main] clicked ok button successfully
+2023-09-27 23:26:05,651 INFO c.s.a.s.ActiTimeStepDefinition [main] logging out of application
+2023-09-27 23:26:05,667 INFO c.s.a.s.ActiTimeStepDefinition [main] succesfully landed on login page
+2023-09-27 23:26:09,068 INFO c.s.a.s.ActiTimeStepDefinition [main] closing application
+2023-09-27 23:26:09,469 INFO c.s.a.s.ActiTimeStepDefinition [main] closed browser successfully 
